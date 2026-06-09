@@ -1,0 +1,269 @@
+si tengo forward P/E, P/S, P/B y EV/EBITDA para empresas financiera (aqui no entra fwd EV/EBITDA obvio) y mineras, entonces con que otras metricas podria ser interesante combinalas en un chart o summarize table chart , por ejmplo dire ideas sueltas que pueden no tener sentido: precio de commodities (cobre, plata, zinc, oro) y forward P/E para las mineras. Mientras que en las bancarias podria combinar forward P/E con unas curvas de las tasas de inflacion de US y otra de BCRP (Peru), o mostrar forward PE junto con el ROE para estas empresas financieras. Captas la idea? Me refiero a ese tipo de variables externas a los multiplos forward. El objetivo siempre es saber si una accion estara cara o barata
+
+Sí, capto perfecto la idea: quieres enriquecer múltiplos forward con **drivers fundamentales o macro** que expliquen *por qué* una acción debería estar cara o barata, no solo ver el número aislado. Eso es súper potente para insights.
+
+Por ejemplo (y corrigeme si me equivoco, no seas complaciente) combinaciones útiles (tipo chart o summary tables) separadas por sector y tipo de intuición:
+
+***
+
+# 🟦 1. Mineras: múltiplos + commodities & ciclo
+
+### 🔹 A. Forward P/E vs precio del commodity (tu idea → ✅ muy buena)
+
+* **Chart**: Scatter o time series dual axis
+* Ejes:
+  * X: Precio del commodity (Cu, Au, Zn, Ag)
+  * Y: Forward P/E
+
+👉 Interpretación:
+
+* P/E alto + commodity alto → mercado espera reversión → potencial sobrevaluación
+* P/E bajo + commodity alto → posible atraso en pricing (o riesgo ignorado)
+
+***
+
+### 🔹 B. EV/EBITDA vs margen EBITDA (o cash cost curve)
+
+* Especialmente útil en minería
+* Puedes usar:
+  * Margen EBITDA
+  * C1 cash cost / AISC (gold)
+
+👉 Insight:
+
+* Dos empresas con mismo EV/EBITDA:
+  * La de menor costo → debería cotizar más cara
+* Detecta “value traps” (baratas pero ineficientes)
+
+***
+
+### 🔹 C. P/B vs ROE (versión minera)
+
+* ROE en minería es muy cíclico
+
+👉 Insight:
+
+* P/B alto + ROE pico → peligro (pico de ciclo)
+* P/B bajo + ROE deprimido → oportunidad contrarian
+
+***
+
+### 🔹 D. Multiples vs curva de commodities (forward curve)
+
+* Mezcla muy pro
+* Ejemplo:
+  * Forward P/E vs expectativa cobre (futures)
+
+👉 Insight:
+
+* Mercado puede estar más bullish/bearish que curva
+
+***
+
+### 🔹 E. Multiples vs Capex cycle
+
+* Capex / Sales o Capex / EBITDA
+
+👉 Insight:
+
+* Capex alto → FCF bajo hoy → múltiplos pueden engañar
+* Identifica empresas en fase de expansión
+
+***
+
+# 🟩 2. Bancos / financieras: múltiplos + entorno macro
+
+### 🔹 A. Forward P/E vs ROE (clave)
+
+* **Esto es MUST**
+
+👉 Insight:
+
+* Relación base:
+  * Alto ROE → debería tener alto P/E
+* Outliers:
+  * ROE alto + P/E bajo → undervalued
+  * ROE bajo + P/E alto → overpriced
+
+***
+
+### 🔹 B. P/B vs ROE (lo más clásico en bancos)
+
+* Gordon Growth Model aplicado
+
+👉 Insight:
+
+* Línea teórica:
+  * P/B ≈ f(ROE - CoE)
+* Si se desvía:
+  * Identificas mispricing
+
+***
+
+### 🔹 C. Forward P/E o P/B vs tasas de interés (tu idea → ✅ muy sólida)
+
+* Ejemplo:
+  * Tasa BCRP
+  * US 10Y (si hay exposure externo)
+
+👉 Insight:
+
+* Bancos suelen:
+  * Beneficiarse de subidas de tasas (hasta cierto punto)
+* Si tasas suben pero múltiplos bajan → mercado pricing riesgo
+
+***
+
+### 🔹 D. Multiples vs NIM (Net Interest Margin)
+
+* NIM es clave para banca
+
+👉 Insight:
+
+* NIM alto debería → mayor valoración
+* Divergencias → oportunidad
+
+***
+
+### 🔹 E. Multiples vs crecimiento de cartera (Loans growth)
+
+* Loan growth YoY
+
+👉 Insight:
+
+* Crecimiento alto + múltiplos bajos → posible infravaloración
+* Crecimiento débil + múltiplos altos → sobrevaluación
+
+***
+
+### 🔹 F. Multiples vs calidad de activos
+
+* NPL ratio
+* Cost of risk
+
+👉 Insight:
+
+* Bajo P/B puede ser trampa si NPL alto
+
+***
+
+# 🟨 3. Combinaciones cross-sector (para dashboards)
+
+### 🔹 A. Multiples vs Beta / riesgo
+
+* Beta o volatilidad
+
+👉 Insight:
+
+* Acciones baratas pueden ser "cheap for a reason"
+
+***
+
+### 🔹 B. Multiples vs crecimiento esperado (EPS growth)
+
+* PEG ratio implícito
+
+👉 Insight:
+
+* P/E alto puede justificarse por growth
+
+***
+
+### 🔹 C. Multiples vs FCF yield
+
+* Reverse múltiplos
+
+👉 Insight:
+
+* Caja real vs ganancia contable
+
+***
+
+### 🔹 D. Multiples vs inflación
+
+* Especialmente bancos
+
+👉 Insight:
+
+* Inflación alta puede distorsionar múltiplos contables
+
+***
+
+# 🧠 IDEAS DE VISUALIZACIÓN (MUY POTENTES)
+
+### 🔥 1. Quadrant charts (mi favorito)
+
+Ejemplo bancos:
+
+* X: ROE
+* Y: P/B
+
+Cuadrantes:
+
+* Alto ROE + bajo P/B → ✅ undervalued
+* Bajo ROE + alto P/B → ❌ overpriced
+
+***
+
+### 🔥 2. Scatter con color adicional
+
+Ejemplo mineras:
+
+* X: Precio commodity
+* Y: Forward P/E
+* Color: Cost curve o margen
+
+***
+
+### 🔥 3. Time overlay
+
+* Línea 1: múltiplo promedio sector
+* Línea 2: variable macro (commodity, tasas)
+
+***
+
+### 🔥 4. Heatmap
+
+* País / empresa vs:
+  * P/E
+  * ROE
+  * crecimiento
+
+***
+
+# 🧩 RESUMEN CLAVE
+
+Estás buscando esto:
+
+👉 **Múltiplo = precio relativo**
+👉 **Variable externa = driver fundamental**
+
+Entonces lo poderoso es:
+
+| Sector  | Multiplo  | Driver clave        |
+| ------- | --------- | ------------------- |
+| Mineras | P/E       | Precio commodity    |
+| Mineras | EV/EBITDA | Costos / margen     |
+| Banks   | P/B       | ROE                 |
+| Banks   | P/E       | crecimiento + tasas |
+| Banks   | P/B       | NPL / riesgo        |
+
+***
+
+# ✅ REGLA DE ORO
+
+Un múltiplo solo sirve si lo comparas contra:
+
+* Rentabilidad (ROE, margins)
+* Crecimiento (EPS, loans)
+* Riesgo (NPL, cost curve)
+* Ciclo (commodities, tasas)
+
+***
+
+Si quieres, te puedo armar:
+
+* Un **dashboard ejemplo en Excel layout**
+* O ideas tipo "slides de research" (nivel banco de inversión)
+
+que te queden listos para usar en prácticas o presentaciones.
