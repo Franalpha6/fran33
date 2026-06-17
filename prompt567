@@ -1,0 +1,53 @@
+Necesito un script en Python que visualice la exposición geográfica de mi portafolio en Perú usando un mapa.
+
+Requisitos:
+
+1. Mapa base:
+   - Usar shapefile de Perú (puede ser Natural Earth o similar).
+   - Mostrar exactamente 5 regiones (pueden ser divisiones artificiales del país para simplificar).
+
+2. Estructura por región:
+   - Cada región representa una zona geográfica del portafolio.
+   - Cada región debe estar subdividida internamente en hasta 4 subzonas.
+
+3. Subzonas (composición):
+   - Cada subzona representa una empresa.
+   - Máximo 3 empresas por región + una categoría "Otros".
+   - Las empresas disponibles son:
+     BVN, BAP, Pacasmayo, Pluz, Ferreycorp
+   - "Otros" debe incluir cualquier exposición residual.
+
+4. Proporciones (MUY IMPORTANTE):
+   - El tamaño de cada subzona dentro de la región debe ser proporcional a la exposición económica:
+     (AUM × exposición del activo × riesgo físico).
+   - No usar subdivisiones iguales, deben reflejar pesos reales o simulados.
+
+5. Colores:
+   - Asignar colores fijos:
+     BVN → azul
+     BAP → naranja
+     Pacasmayo → verde
+     Pluz → rojo
+     Ferreycorp → morado
+     Otros → gris
+
+6. Leyenda:
+   - Mostrar siempre las 6 categorías:
+     BVN, BAP, Pacasmayo, Pluz, Ferreycorp, Otros
+
+7. Asignación:
+   - Cada región debe tener combinaciones distintas de empresas.
+   - Máximo 4 categorías por región.
+
+8. Visual:
+   - Mapa limpio, sin ejes.
+   - Bordes visibles por región.
+   - Subdivisión clara dentro de cada región.
+
+Objetivo:
+Visualizar de forma clara la exposición del portafolio a riesgo físico por región, incluyendo composición por empresa y ponderación.
+
+Entrega:
+- Código Python completo
+- Usar geopandas + matplotlib
+``
