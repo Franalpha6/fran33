@@ -1,0 +1,146 @@
+G&P C5 = 2026-07-22 00:00:00
+valor dólar = 3.6555
+
+================  RAMA NORMAL  ================
+[OK] Portafolio -> Z:\Mesa de Inversiones\Bottom-Up\2 Proceso de Inversión Renta Fija\Corporates - Emisiones\Crédito - BU\3. ESG\9. ESG Manager - MSCI\1.Data Histórica\Output\Intermedio\\202607 Portafolio.xlsx
+[OK] BD1 -> Z:\Mesa de Inversiones\Bottom-Up\2 Proceso de Inversión Renta Fija\Corporates - Emisiones\Crédito - BU\3. ESG\9. ESG Manager - MSCI\1.Data Histórica\Output\Intermedio\\202607 BD1.xlsx
+
+[DESCARTES] Resumen para rama NORMAL:
+[DESCARTES] Detalle completo (28853 filas) -> Z:\Mesa de Inversiones\Bottom-Up\2 Proceso de Inversión Renta Fija\Corporates - Emisiones\Crédito - BU\3. ESG\9. ESG Manager - MSCI\1.Data Histórica\Output\Intermedio\\Descartes NORMAL.xlsx
+
+--- Resumen por Etapa (conteo de SBS descartados) ---
+Etapa
+BU() - filtros Bottom-Up       1099
+Clasificación BU/TD/SOB         742
+EPU/ETF - generar_relacion      545
+Mapeo ISIN (VP.xlsm)            938
+df_result() - Fondo HAF1       1648
+df_result() - Fondo HAF2       1638
+df_result() - Fondo HAF3       1686
+df_result() - Fondo INF1       1660
+df_result() - Fondo INF2       1645
+df_result() - Fondo INF3       1704
+df_result() - Fondo PFF1       1701
+df_result() - Fondo PFF2       1696
+df_result() - Fondo PFF3       1736
+df_result() - Fondo RIF1       1681
+df_result() - Fondo RIF2       1668
+df_result() - Fondo RIF3       1734
+df_result() - Fondo SIF1       1568
+df_result() - Fondo SIF2       1556
+df_result() - Fondo SIF3       1655
+operaciones() - Asset Class     553
+
+--- Weight/valor diluido total por Etapa ---
+Etapa
+BU() - filtros Bottom-Up       0.000000
+Clasificación BU/TD/SOB        0.000000
+EPU/ETF - generar_relacion     5.608714
+Mapeo ISIN (VP.xlsm)           0.000000
+df_result() - Fondo HAF1       0.566836
+df_result() - Fondo HAF2       0.553997
+df_result() - Fondo HAF3       0.766749
+df_result() - Fondo INF1       0.507808
+df_result() - Fondo INF2       0.551842
+df_result() - Fondo INF3       0.810943
+df_result() - Fondo PFF1       0.565648
+df_result() - Fondo PFF2       0.576335
+df_result() - Fondo PFF3       0.768760
+df_result() - Fondo RIF1       0.512541
+df_result() - Fondo RIF2       0.597619
+df_result() - Fondo RIF3       0.832788
+df_result() - Fondo SIF1       0.508475
+df_result() - Fondo SIF2       0.569736
+df_result() - Fondo SIF3       0.780152
+operaciones() - Asset Class    0.000000
+
+--- Top 15 SBS con más Weight diluido (revisa el Excel para el resto) ---
+SBS
+5460042E8427    5.806071
+5271112E7523    0.819741
+302012200001    0.609966
+5271112E6772    0.569326
+5270652EF676    0.491859
+312039100001    0.482355
+3220082A1040    0.471649
+5275282EY830    0.289562
+3021012171A1    0.267362
+302107100001    0.223747
+5259252EX320    0.194299
+5274822F3552    0.162586
+5274122FK0P9    0.150089
+5277192F9LZQ    0.131570
+5275282EY848    0.130454
+
+================  RAMA SOBERANOS  ================
+[OK] Portafolio_S -> Z:\Mesa de Inversiones\Bottom-Up\2 Proceso de Inversión Renta Fija\Corporates - Emisiones\Crédito - BU\3. ESG\9. ESG Manager - MSCI\1.Data Histórica\Output\Intermedio\\202607 Portafolio_S.xlsx
+[OK] BD1_S -> Z:\Mesa de Inversiones\Bottom-Up\2 Proceso de Inversión Renta Fija\Corporates - Emisiones\Crédito - BU\3. ESG\9. ESG Manager - MSCI\1.Data Histórica\Output\Intermedio\\202607 BD1_S.xlsx
+
+[DESCARTES] Resumen para rama SOBERANOS:
+[DESCARTES] Detalle completo (32916 filas) -> Z:\Mesa de Inversiones\Bottom-Up\2 Proceso de Inversión Renta Fija\Corporates - Emisiones\Crédito - BU\3. ESG\9. ESG Manager - MSCI\1.Data Histórica\Output\Intermedio\\Descartes SOBERANOS.xlsx
+
+--- Resumen por Etapa (conteo de SBS descartados) ---
+Etapa
+BU() - filtros Bottom-Up       1099
+Clasificación BU/TD/SOB         742
+EPU/ETF - generar_relacion      545
+df_result() - Fondo HAF1       1980
+df_result() - Fondo HAF2       1975
+df_result() - Fondo HAF3       2028
+df_result() - Fondo INF1       1984
+df_result() - Fondo INF2       1981
+df_result() - Fondo INF3       2050
+df_result() - Fondo PFF1       2037
+df_result() - Fondo PFF2       2032
+df_result() - Fondo PFF3       2076
+df_result() - Fondo RIF1       2006
+df_result() - Fondo RIF2       1994
+df_result() - Fondo RIF3       2079
+df_result() - Fondo SIF1       1887
+df_result() - Fondo SIF2       1877
+df_result() - Fondo SIF3       1991
+operaciones() - Asset Class     553
+
+--- Weight/valor diluido total por Etapa ---
+Etapa
+BU() - filtros Bottom-Up       0.000000
+Clasificación BU/TD/SOB        0.000000
+EPU/ETF - generar_relacion     5.608714
+df_result() - Fondo HAF1       0.931139
+df_result() - Fondo HAF2       0.786174
+df_result() - Fondo HAF3       0.844268
+df_result() - Fondo INF1       0.937387
+df_result() - Fondo INF2       0.793287
+df_result() - Fondo INF3       0.833997
+df_result() - Fondo PFF1       0.965010
+df_result() - Fondo PFF2       0.778702
+df_result() - Fondo PFF3       0.813618
+df_result() - Fondo RIF1       0.922151
+df_result() - Fondo RIF2       0.831639
+df_result() - Fondo RIF3       0.858239
+df_result() - Fondo SIF1       0.908206
+df_result() - Fondo SIF2       0.794944
+df_result() - Fondo SIF3       0.835859
+operaciones() - Asset Class    0.000000
+
+--- Top 15 SBS con más Weight diluido (revisa el Excel para el resto) ---
+SBS
+5460042E8427    5.806071
+5271112E7523    0.819741
+302012200001    0.609966
+5271112E6772    0.569326
+011000112G39    0.529719
+5270652EF676    0.491859
+312039100001    0.482355
+3220082A1040    0.471649
+011000112G37    0.419718
+011000112G34    0.360593
+5275282EY830    0.289562
+011000112G35    0.272398
+3021012171A1    0.267362
+011000112G33    0.238740
+302107100001    0.223747
+
+================  LISTO  ================
+NORMAL   : {'BD1': 'Z:\\Mesa de Inversiones\\Bottom-Up\\2 Proceso de Inversión Renta Fija\\Corporates - Emisiones\\Crédito - BU\\3. ESG\\9. ESG Manager - MSCI\\1.Data Histórica\\Output\\Intermedio\\\\202607 BD1.xlsx', 'Portafolio': 'Z:\\Mesa de Inversiones\\Bottom-Up\\2 Proceso de Inversión Renta Fija\\Corporates - Emisiones\\Crédito - BU\\3. ESG\\9. ESG Manager - MSCI\\1.Data Histórica\\Output\\Intermedio\\\\202607 Portafolio.xlsx'}
+SOBERANOS: {'BD1': 'Z:\\Mesa de Inversiones\\Bottom-Up\\2 Proceso de Inversión Renta Fija\\Corporates - Emisiones\\Crédito - BU\\3. ESG\\9. ESG Manager - MSCI\\1.Data Histórica\\Output\\Intermedio\\\\202607 BD1_S.xlsx', 'Portafolio': 'Z:\\Mesa de Inversiones\\Bottom-Up\\2 Proceso de Inversión Renta Fija\\Corporates - Emisiones\\Crédito - BU\\3. ESG\\9. ESG Manager - MSCI\\1.Data Histórica\\Output\\Intermedio\\\\202607 Portafolio_S.xlsx'}
